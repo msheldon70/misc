@@ -1,0 +1,8 @@
+authentication.method=OIDC
+oidc.provider=Keycloak
+oidc.clientId=webprotege-client
+oidc.clientSecret=your-client-secret
+oidc.authorizationEndpoint=https://your-keycloak-server/auth/realms/your-realm/protocol/openid-connect/auth
+oidc.tokenEndpoint=https://your-keycloak-server/auth/realms/your-realm/protocol/openid-connect/token
+oidc.userInfoEndpoint=https://your-keycloak-server/auth/realms/your-realm/protocol/openid-connect/userinfo
+oidc.endSessionEndpoint=https://your-keycloak-server/auth/realms/your-realm/protocol/openid-connect/logout
