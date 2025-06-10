@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Basic Static Website</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Top navigation -->
+  <header>
+    <div class="container">
+      <h1 class="logo">MySite</h1>
+      <nav>
+        <ul class="nav-menu">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#features">Features</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero section -->
+  <section id="home" class="hero">
+    <div class="container">
+      <h2>Welcome to MySite</h2>
+      <p>A simple static website built with HTML &amp; CSS.</p>
+      <a href="#features" class="btn">Learn More</a>
+    </div>
+  </section>
+
+  <!-- Features -->
+  <section id="features" class="features container">
+    <div class="feature">
+      <h3>Feature One</h3>
+      <p>Describe your first feature here. Keep it brief and engaging.</p>
+    </div>
+    <div class="feature">
+      <h3>Feature Two</h3>
+      <p>Describe your second feature here. Show off what makes you special.</p>
+    </div>
+    <div class="feature">
+      <h3>Feature Three</h3>
+      <p>Describe your third feature here. Highlight benefits to your users.</p>
+    </div>
+  </section>
+
+  <!-- Contact form -->
+  <section id="contact" class="contact container">
+    <h2>Get in Touch</h2>
+    <form>
+      <label for="name">Name</label>
+      <input id="name" type="text" placeholder="Your Name" required>
+
+      <label for="email">Email</label>
+      <input id="email" type="email" placeholder="you@example.com" required>
+
+      <label for="message">Message</label>
+      <textarea id="message" rows="5" placeholder="Your message…" required></textarea>
+
+      <button type="submit" class="btn">Send Message</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 MySite. All rights reserved.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
